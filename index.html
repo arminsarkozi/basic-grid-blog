@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Basic Grid Blog</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body class="container">
+  <header>
+    <a href="#">About</a>
+    <a href="#">Home</a>
+  </header>
+  <h1 class="page-title">Basic Grid Blog</h1>
+  <main>
+    <div class="blog-post">
+      <a href="#">
+        <!-- image from: https://pixabay.com/hu/photos/iskola-h%c3%a1z-%c3%a9p%c3%bclet-sivatag-nyugati-6982073/ -->
+        <img src="assets/image1.jpg" alt="school">
+      </a>
+      <a href="#">
+        <h2 class="title">Title1</h2>
+      </a>
+      <p class="meta">
+        This is the description of this article. Easy editing and correction. It's good!
+      </p>
+    </div>
+    <div class="blog-post">
+      <a href="#">
+        <!-- image from: https://pixabay.com/hu/photos/k%c3%b6nyvt%c3%a1r-k%c3%b6nyvek-oktat%c3%a1s-irodalom-869061/ -->
+        <img src="assets/image2.jpg" alt="library">
+      </a>
+      <a href="#">
+        <h2 class="title">Title2</h2>
+      </a>
+      <p class="meta">
+        This is the description of this article. Easy editing and correction. It's good!
+      </p>
+    </div>
+    <div class="blog-post">
+      <a href="#">
+        <!-- image from: https://pixabay.com/hu/photos/t%c3%b3-kunyh%c3%b3-m%c3%b3l%c3%b3-dokk-v%c3%adz-192990/ -->
+        <img src="assets/image3.jpg" alt="house">
+      </a>
+      <a href="#">
+        <h2 class="title">Title3</h2>
+      </a>
+      <p class="meta">
+        This is the description of this article. Easy editing and correction. It's good!
+      </p>
+    </div>
+    <footer>by <a href="https://github.com/arminsarkozi">arminsarkozi</a></footer>
+  </main>
+  <div class="navbar">
+    <input type="search" placeholder="Search...">
+    <h3>Welcome to the Basic Grid Blog home!</h3>
+    <div>
+      <img src="assets/customer-service.png" alt="Customer service">
+      <p class="customer-service-description">Have a question? Contact our 24-hour customer service team who will help
+        you with your questions.</p>
+    </div>
+  </div>
+  <div class="sidebar">
+    <h2>Blog options</h2>
+    <a href="/?select=all" title="All posts" id="all">All posts</a>
+    <a href="/?select=recent" title="Recent only" id="recent">Recent only</a>
+    <a href="/?select=admin" title="From Admin" id="admin">From Admin</a>
+    <a href="/?select=c1" title="Category1" id="c1">Category: <u>Category1</u></a>
+    <a href="/?select=c2" title="Category2" id="c2">Category: <u>Category2</u></a>
+    <a href="/?select=c3" title="Category3" id="c3">Category: <u>Category3</u></a>
+  </div>
+
+</body>
+
+</html>
